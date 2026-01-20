@@ -1,0 +1,26 @@
+lembrete.txt
+
+/data
+
+Dict v1.ods
+
+*.Zone.Identifier
+
+/sih_env
+
+*.bat
+
+/Notebooks/Aprendendo
+/Notebooks/Teste-Fato_Hospital
+/Notebooks/testes
+
+# Ignorar arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.log
+
+/ibge
+
+

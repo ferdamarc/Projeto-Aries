@@ -1,0 +1,63 @@
+Dimensão Tempo
+ANO_CMPT
+MES_CMPT
+DT_INTER
+DT_SAIDA
+
+
+Dimensão Localização
+CEP - CEP do Paciente
+MUNIC_RES - Município de Residência do Paciente
+MUNIC_MOV - Município do Estabelecimento
+
+
+Dimensão Hospital
+CGC_HOSP - CNPJ do Estabelecimento
+CNES - Código CNES (Cadastro Nacional de Estabelecimentos de Saúde) do hospital
+
+
+Dimensão Paciente
+NASC
+SEXO
+IDADE
+COD_IDADE - Unidade de medida da idade
+NACIONAL
+INSTRU - Grau de instrução do paciente
+RACA_COR
+ETNIA
+CBOR - Ocupação do paciente, segundo a CBO (Classificação Brasileira de Ocupações)
+MORTE - Indica Óbito
+
+
+Dimensão UTI (Unidade de Terapia Intensiva)
+UTI_MES_TO - Quantidade de dias de UTI no mês.
+MARCA_UTI - Indica qual o tipo de UTI utilizada pelo paciente
+VAL_UTI - Valor de UTI.
+
+
+Dimensão Procedimento
+PROC_SOLIC - Procedimento solicitado
+PROC_REA - Procedimento realizado
+VAL_SH - Valor do Serviço Hospitalar
+VAL_SP - Valor do Serviço Profissional
+VAL_TOT - Valor Total da AIH (Autorização de Internação Hospitalar)
+
+
+Dimensão Diagnóstico (CID-10)
+DIAG_PRINC
+DIAG_SECUN
+DIAGSEC1
+DIAGSEC2
+DIAGSEC3
+DIAGSEC4
+DIAGSEC5
+DIAGSEC6
+DIAGSEC7
+DIAGSEC8
+DIAGSEC9
+CID_MORTE
+
+Dimensão Variáveis Adicionais
+N_AIH - Número da AIH (Autorização de Internação Hospitalar)
+INFEHOSP - Status de infecção hospitalar
+IND_VDRL - Indica exame VDRL.
